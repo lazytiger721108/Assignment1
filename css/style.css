@@ -70,7 +70,8 @@ hr.line-2{background: #333;max-width: 40px;height: 4px;}
 /* ------------------------------------Html-Body------------------------------- */
 /* ---------------------------------------------------------------------------- */
 html, body {width:100%; padding:0; margin:0;}
-body {font: 16px/26px Arial, Helvetica, sans-serif;font-family: 'Crimson Text', serif;background: #fff;}
+/* body {font: 16px/26px Arial, Helvetica, sans-serif;font-family: 'Crimson Text', serif;background: #fff;} */
+body {font: 18px/28px Arial, Helvetica, sans-serif;font-family: 'Crimson Text', serif;background: #fff;}
 body .wrap-body{}
 
 /* ---------------------------------------------------------------------------- */
@@ -164,7 +165,8 @@ article .entry-content{ padding: 40px 100px; text-align: left;}
 @media(max-width:480px){
 	article.single-post .entry-content{ padding: 30px;}
 }
-article .entry-content p{font-size: 16px;color: #686868;}
+/* article .entry-content p{font-size: 16px;color: #686868;} */
+article .entry-content p{font-size: 18px;color: #686868;}
 article .entry-content blockquote {border-left: 3px solid #1c7791;font-size: 18px;margin: 0 50px;font-style: italic;color: #666;padding-left: 20px;}
 article .entry-content ol {float: left;text-align: justify;margin: 10px 50px;font-size: 16px;list-style-type: circle;}
 
