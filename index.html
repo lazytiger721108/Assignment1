@@ -2,349 +2,357 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Development</title>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Development</title>
 
 </head>
 <style>
-  body,
-  html {
-    margin: 0px;
-    background-color: #54a5b6;
-  }
+    body,
+    html {
+        margin: 0px;
+        background-color: #54a5b6;
+    }
 
-  .block1 {
-    background-color: #000;
-    margin: 20px;
-    border-radius: 10px;
-    padding: 20px;
-    color: #fff;
-  }
+    .block1 {
+        background-color: #000;
+        margin: 20px;
+        border-radius: 10px;
+        padding: 20px;
+        color: #fff;
+    }
 
-  .sidebar {
-    background-color: #24252d;
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    color: #fff;
-    width: 200px;
-    left: 0px;
-    z-index: 10;
-  }
+    .sidebar {
+        background-color: #24252d;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        color: #fff;
+        width: 200px;
+        left: 0px;
+        z-index: 10;
+    }
 
-  .sidebar .menu {
-    padding: 20px 10px;
-  }
+    .sidebar .menu {
+        padding: 20px 10px;
+    }
 
-  .sidebar .menu a {
-    color: #fff;
-    text-decoration: none;
+    .sidebar .menu a {
+        color: #fff;
+        text-decoration: none;
 
-  }
+    }
 
-  .caption {
-    color: #fff;
-    font-size: 22pt;
-    text-align: center;
-    padding: 20px;
-    border: 1px solid #fff;
-    width: 46%;
-    margin: 0 auto;
-    text-align: center;
-    font-weight: bold;
-  }
+    .caption {
+        color: #fff;
+        font-size: 22pt;
+        text-align: center;
+        padding: 20px;
+        border: 1px solid #fff;
+        width: 46%;
+        margin: 0 auto;
+        text-align: center;
+        font-weight: bold;
+    }
 
-  .r-item {
-    flex: 1;
-    background-color: #072833;
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
+    .r-item {
+        flex: 1;
+        background-color: #072833;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
 
-  }
+    }
 
-  .footer {
-    width: 100%;
-    background-color: #076787;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-align: center;
-    color: #fff;
-    margin-top: 40px;
-  }
+    .footer {
+        width: 100%;
+        background-color: #076787;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+        color: #fff;
+        margin-top: 40px;
+    }
 
-  table th {
-    vertical-align: bottom;
-    border-bottom: 2px solid #aaa;
-  }
+    table th {
+        vertical-align: bottom;
+        border-bottom: 2px solid #aaa;
+    }
 
-  td {
-    padding: 10px;
-  }
+    td {
+        padding: 10px;
+    }
 
-  tbody tr:nth-of-type(odd) {
-    background-color: rgba(0, 0, 0, .05);
-  }
+    tbody tr:nth-of-type(odd) {
+        background-color: rgba(0, 0, 0, .05);
+    }
 
-  .goal {
-    background: url(./images/banner.jpg) no-repeat center;
-    height: 98vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
+    .goal {
+        background: url(./images/banner.jpg) no-repeat center;
+        height: 98vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 
-  .work {
-    color: #10b5fa;
-    z-index: 10;
-    position: absolute;
-    right: 20px;
-    top: 50px;
-    font-size: 30px;
-    color: rgba(255, 255, 255, 0.7);
-    border-bottom: 2px solid #333;
-    text-decoration: none;
-  }
+    .work {
+        color: #10b5fa;
+        z-index: 10;
+        position: absolute;
+        right: 20px;
+        top: 50px;
+        font-size: 30px;
+        color: rgba(255, 255, 255, 0.7);
+        border-bottom: 2px solid #333;
+        text-decoration: none;
+    }
 
-  .p-c {
-    color: #b031d9;
-    font-size: 60px;
-    text-align: center;
-  }
+    .p-c {
+        color: #b031d9;
+        font-size: 60px;
+        text-align: center;
+    }
 </style>
 
 <body style="display: flex">
-  <div class="sidebar">
+<div class="sidebar">
     <div class="menu"><a href="#GOAL">GOAL</a></div>
     <div class="menu"><a href="#PREPARATION">PREPARATION: SKETCHES</a></div>
     <div class="menu"><a href="#USER">USER RESEARCH: INTERVIEWING & OBSERVATION</a></div>
     <div class="menu"><a href="#MENTAL">MENTAL MODELS & PERSONAS</a></div>
-    <div class="menu"><a href="#Storyboarding">Storyboarding</a></div>
+    <div class="menu"><a href="#Storyboarding">STORYBOARDING</a></div>
     <div class="menu"><a href="#CONCLUSION">CONCLUSION</a></div>
-  </div>
-  <div style="flex: 1;">
-    <div id="GOAL" class="goal">
-      <a href="../../index.html" class="work">Work</a>
-      <div class="block1">
-        <h1 class="p-c">Personas & Storyboarding</h1>
-        <h2 style="text-align: center">Goal</h2>
-        <p>
-          In this project, we learned about user research. Specifically,
-          we need to choose an interface, then observe and interview how users
-          interact with it.
-        </p>
-        <p>
-          User research is never easy. It is a very important part of
-          the learning journey of becoming a designer, which allows us
-          to discover our users’ best interests.
-        </p>
-        <p>
-          In order to practice and strengthen the design process, we will
-          also make personas and storyboards based on the interview results,
-          so as to help us understand the goals and needs of users, and
-          record piratic information.
-        </p>
-      </div>
+</div>
+<div style="flex: 1;">
+    <div class="goal" id="GOAL">
+        <a class="work" href="../../index.html">Work</a>
+        <div class="block1">
+            <h1 class="p-c">Personas & Storyboarding</h1>
+            <h2 style="text-align: center">Goal</h2>
+            <p>
+                In this project, we learned about user research. Specifically,
+                we need to choose an interface, then observe it and interview how users
+                interact with it.
+            </p>
+            <p>
+                User research is never easy. It is a very important part of
+                the learning journey of becoming a designer, which allows us
+                to discover our users’ best interests.
+            </p>
+            <p>
+                In order to practice and strengthen the design process, we will
+                also make personas and storyboards based on the interview results,
+                so as to help us understand the goals and needs of users, and
+                record piratic information.
+            </p>
+        </div>
 
     </div>
 
-    <div id="PREPARATION" class="block1" style="margin:50px 40px 40px 40px;position: relative;padding: 30px;">
-      <h1 class="caption">Preparation: Sketches</h1>
-      <div>
-        <p>
-          The interface I chose was CVS self-checkout machine.
-        </p>
-        <p>The reason I chose CVS self-checkout machine is that when I used it
-          in
-          the past,
-          there were often some unexpected situations that made my
-          payment process even more difficult. Therefore, I wanted
-          to see what other people think about the self-checkout
-          machine.
-        </p>
-        <p>
-          Then, I created two drafts with Figma, one showing the
-          appearance and overall structure of a self-checkout machine,
-          and the other showing the screen’s interface of a machine.
-        </p>
-      </div>
-      <div style="display: flex;justify-content: space-between;">
-        <div style="width: 40%;box-sizing: border-box;">
-          <img style="width: 100%;height: 300px;object-fit: cover;" src="images/1.png" />
-        </div>
-        <div style="width: 40%;box-sizing: border-box;">
-          <img style="width: 100%;height: 300px;object-fit: cover;" src="images/2.png" />
-        </div>
-      </div>
-    </div>
-    <div id="USER" class="block1" style="height: auto;padding: 20px;font-weight: bold;">
-      <div class="caption">USER RESEARCH: INTERVIEWING & OBSERVATION </div>
-
-      <p style="color: #fff;font-size: 20px;font-weight: normal;">
-
-        In order to construct user personas and storyboards, as a designer and
-        UI researcher, I have to conduct an ethnographic study of the user group
-        of self-checkout machines.
-      </p>
-      <p style="color: #fff;font-size: 20px;font-weight: normal;">
-
-        During this process, I observed whether the respondents had any difficulties using the self-checkout machine,
-        and then interviewed them with two questions..
-      </p>
-
-      <div style="margin-top: 50px">
+    <div class="block1" id="PREPARATION" style="margin:50px 40px 40px 40px;position: relative;padding: 30px;">
+        <h1 class="caption">Preparation: Sketches</h1>
         <div>
-          <div>
-            <p>Q1: Do you prefer the self-checkout machine or checkout by cashier? And
-              Why?</p>
-            <p>Self-checkout machine:</p>
-            <ul>
-              <li>·bag my items in the way I like;</li>
-              <li>·avoid any kind of interactions with people;</li>
-              <li>·usually it's faster</li>
-            </ul>
-            <p>Cashier:</p>
-            <ul>
-              <li>·need to wait much longer when my items cannot be scanned or the
-                machine
-                doesn’t work;
-              </li>
-              <li>·have to bag everything by myself;</li>
-              <li>·sensor sometimes drives me</li>
-              <crazy></crazy>
-            </ul>
-          </div>
+            <p>
+                The interface I chose was CVS self-checkout machine.
+            </p>
+            <p>The reason I chose CVS self-checkout machine is that when I used it
+                in
+                the past,
+                there were often some unexpected situations that made my
+                payment process even more difficult. Therefore, I wanted
+                to see what other people think about the self-checkout
+                machine.
+            </p>
+            <p>
+                Then, I created two drafts with Figma, one showing the
+                appearance and overall structure of a self-checkout machine,
+                and the other showing the screen’s interface of a machine.
+            </p>
         </div>
+        <div style="display: flex;justify-content: space-between;">
+            <div style="width: 40%;box-sizing: border-box;">
+                <img src="images/1.png" style="width: 100%;height: 300px;object-fit: cover;"/>
+            </div>
+            <div style="width: 40%;box-sizing: border-box;">
+                <img src="images/2.png" style="width: 100%;height: 300px;object-fit: cover;"/>
+            </div>
+        </div>
+    </div>
+    <div class="block1" id="USER" style="height: auto;padding: 20px;font-weight: bold;">
+        <div class="caption">USER RESEARCH: INTERVIEWING & OBSERVATION</div>
+
+        <p style="color: #fff;font-size: 20px;font-weight: normal;">
+
+            In order to construct user personas and storyboards, as a designer and
+            UI researcher, I have to conduct an ethnographic study of the user group
+            of self-checkout machines.
+        </p>
+        <p style="color: #fff;font-size: 20px;font-weight: normal;">
+
+            During this process, I observed whether the respondents had any difficulties using the self-checkout
+            machine,
+            and then interviewed them with two questions..
+        </p>
+
         <div style="margin-top: 50px">
-          <div>
-            <p>Q2:Is there any part of the self-checkout machine interface that you are
-              unsatisfied with/can be improved?</p>
-            <ul>
-              <li>·It is difficult to scan the barcode of some items. And the card
-                reader
-                sometimes can’t read cards.
-              </li>
-              <li>·The sensor is sometimes too sensitive, but sometimes it cannot
-                detect anything. I need to keep clicking "Skip Bagging'', or even
-                ask others for help. And when I have a lot of items, the basket
-                stand would mess up, especially on rainy days.
-              </li>
-              <li>·It’s a pretty simple machine. But sometimes the scanner doesn't
-                work
-                well.
-              </li>
-              <crazy></crazy>
-            </ul>
-          </div>
+            <div>
+                <div>
+                    <p>Q1: Do you prefer the self-checkout machine or checkout by cashier? And
+                        Why?</p>
+                    <p>Self-checkout machine:</p>
+                    <ul>
+                        <li>·bag my items in the way I like;</li>
+                        <li>·avoid any kind of interactions with people;</li>
+                        <li>·usually it's faster</li>
+                    </ul>
+                    <p>Cashier:</p>
+                    <ul>
+                        <li>·need to wait much longer when my items cannot be scanned or the
+                            machine
+                            doesn’t work;
+                        </li>
+                        <li>·have to bag everything by myself;</li>
+                        <li>·sensor sometimes drives me</li>
+                        <crazy></crazy>
+                    </ul>
+                </div>
+            </div>
+            <div style="margin-top: 50px">
+                <div>
+                    <p>Q2:Is there any part of the self-checkout machine interface that you are
+                        unsatisfied with/can be improved?</p>
+                    <ul>
+                        <li>·It is difficult to scan the barcode of some items. And the card
+                            reader
+                            sometimes can’t read cards.
+                        </li>
+                        <li>·The sensor is sometimes too sensitive, but sometimes it cannot
+                            detect anything. I need to keep clicking "Skip Bagging'', or even
+                            ask others for help. And when I have a lot of items, the basket
+                            stand would mess up, especially on rainy days.
+                        </li>
+                        <li>·It’s a pretty simple machine. But sometimes the scanner doesn't
+                            work
+                            well.
+                        </li>
+                        <crazy></crazy>
+                    </ul>
+                </div>
+            </div>
         </div>
-      </div>
-      <div>
-        Then, I synthesized quantitative and qualitative research data retrieved from the interview process, which is a
-        very critical preparation of constructing personas and storyboards.
-      </div>
+        <div>
+            Then, I synthesized quantitative and qualitative research data retrieved from the interview process, which
+            is a
+            very critical preparation of constructing personas and storyboards.
+        </div>
     </div>
     <div id="MENTAL" style="margin-top: 50px;padding: 20px;font-weight: bold;">
-      <h1 class="caption">MENTAL MODELS & PERSONAS</h1>
-      <p>
-        According to the interview results, and some common behaviors of users I observed, I constructed 2 personas,
-        each one is a four-quadrant empathy map.
-      </p>
-      <p>
-        In each empathy map, I provide some contextual information about users' environment, and show the main
-        characteristics, ambitions, and frustrations of users I observed.
-      </p>
-      <img style="width: 60%; margin: auto 20%;" src="images/9.png">
-      <p>
-        Eric is a rushed student and his next class will begin in 5 minutes. But when he is in the grocery store, there
-        is some problem with the weight sensor and cannot detect any item. The user has to go and communicate with the
-        clerk. The user waited for a long time before the clerk came over slowly.
+        <h1 class="caption">MENTAL MODELS & PERSONAS</h1>
+        <p>
+            According to the interview results, and some common behaviors of users I observed, I constructed 2 personas,
+            each one is a four-quadrant empathy map.
+        </p>
+        <p>
+            In each empathy map, I provide some contextual information about users' environment, and show the main
+            characteristics, ambitions, and frustrations of users I observed.
+        </p>
+        <img src="images/9.png" style="width: 60%; margin: auto 20%;">
+        <p>
+            Eric is a rushed student and his next class will begin in 5 minutes. But when he is in the grocery store,
+            there
+            is some problem with the weight sensor and cannot detect any item. The user has to go and communicate with
+            the
+            clerk. The user waited for a long time before the clerk came over slowly.
 
 
-      </p>
-      <img style="width: 60%; margin: auto 20%;" src="images/10.png">
-      <p>
-        John is an impatient person who always wants to use his time efficiently. He's also a bit introverted and
-        doesn't like unnecessary interactions with people. When he wanted to check out, there happened to be an
-        automatic checkout machine available, but there were still five people in line at the cashier's side.
+        </p>
+        <img src="images/10.png" style="width: 60%; margin: auto 20%;">
+        <p>
+            John is an impatient person who always wants to use his time efficiently. He's also a bit introverted and
+            doesn't like unnecessary interactions with people. When he wanted to check out, there happened to be an
+            automatic checkout machine available, but there were still five people in line at the cashier's side.
 
-      </p>
+        </p>
 
     </div>
 
     <div id="Storyboarding" style="font-size: 20px;background-color:#fff;margin-top: 50px;padding: 20px;">
-      <h4>Storyboarding</h4>
-      <p>
-        Next, we need to create a storyboard for our persona's user journey from start to end, which is a visual
-        representation of a story. In this process, as a designer, we need to create a reasonable scenario, and conceive
-        some specific details of human-computer interaction, such as user emotion and machine interface changes, and so
-        on.
-      </p>
-      <div style="display: flex;justify-content: space-between;">
-        <div style="border: 10px solid #fff;width: 30%;box-sizing: border-box;">
-          <img src="images/3.png" style="width: 100%" />
-          <div>Eric put milk on the weighing scale, but it cannot be scanned and nothing shows up on the screen.
-          </div>
+        <h4>Storyboarding</h4>
+        <p>
+            Next, we need to create a storyboard for our persona's user journey from start to end, which is a visual
+            representation of a story. In this process, as a designer, we need to create a reasonable scenario, and
+            conceive
+            some specific details of human-computer interaction, such as user emotion and machine interface changes, and
+            so
+            on.
+        </p>
+        <div style="display: flex;justify-content: space-between;">
+            <div style="border: 10px solid #fff;width: 30%;box-sizing: border-box;">
+                <img src="images/3.png" style="width: 100%"/>
+                <div>Eric put milk on the weighing scale, but it cannot be scanned and nothing shows up on the screen.
+                </div>
+            </div>
+            <div style="border: 10px solid #fff;width: 30%;box-sizing: border-box;">
+                <img src="images/4.png" style="width: 100%"/>
+                <div>
+                    Eric pressed “Request Help” and waited for a clerk to come
+                    to
+                    help him.
+                </div>
+            </div>
+            <div style="border: 10px solid #fff;width: 30%;box-sizing: border-box;">
+                <img src="images/5.png" style="width: 100%"/>
+                <div>The screen just says “Please wait. Help is on the way.”
+                </div>
+            </div>
         </div>
-        <div style="border: 10px solid #fff;width: 30%;box-sizing: border-box;">
-          <img src="images/4.png" style="width: 100%" />
-          <div>
-            Eric pressed “Request Help” and waited for a clerk to come
-            to
-            help him.
-          </div>
+        <div style="display: flex;justify-content: space-between;">
+            <div style="border: 10px solid #fff;width: 30%;box-sizing: border-box;">
+                <img src="images/6.png" style="width: 100%"/>
+                <div>
+                    The clerk fixed this issue and Eric just checked his milk.
+                    And
+                    then pressed “Fish and Pay”.
+                </div>
+            </div>
+            <div style="border: 10px solid #fff;width: 30%;box-sizing: border-box;">
+                <img src="images/7.png" style="width: 100%"/>
+                <div>Eric put his card in the card reader and entered his PIN.</div>
+            </div>
+            <div style="border: 10px solid #fff;width: 30%;box-sizing: border-box;">
+                <img src="images/8.png" style="width: 100%"/>
+                <div>
+                    Everything is all set! Eric put this milk into the bag and
+                    grabbed the receipt.
+                </div>
+            </div>
         </div>
-        <div style="border: 10px solid #fff;width: 30%;box-sizing: border-box;">
-          <img src="images/5.png" style="width: 100%" />
-          <div>The screen just says “Please wait. Help is on the way.”
-          </div>
-        </div>
-      </div>
-      <div style="display: flex;justify-content: space-between;">
-        <div style="border: 10px solid #fff;width: 30%;box-sizing: border-box;">
-          <img src="images/6.png" style="width: 100%" />
-          <div>
-            The clerk fixed this issue and Eric just checked his milk.
-            And
-            then pressed “Fish and Pay”.
-          </div>
-        </div>
-        <div style="border: 10px solid #fff;width: 30%;box-sizing: border-box;">
-          <img src="images/7.png" style="width: 100%" />
-          <div>Eric put his card in the card reader and entered his PIN.</div>
-        </div>
-        <div style="border: 10px solid #fff;width: 30%;box-sizing: border-box;">
-          <img src="images/8.png" style="width: 100%" />
-          <div>
-            Everything is all set! Eric put this milk into the bag and
-            grabbed the receipt.
-          </div>
-        </div>
-      </div>
     </div>
 
-    <div id="CONCLUSION" class="block1">
-      <h4>CONCLUSION</h4>
-      <p>
-        Persona and storyboarding, two effective tools for a designer, not only enable me to better understand how
-        groups of users interact with a product, but also further my understanding of a product.
-
-        During this assignment, I learned a lot of lessons. First of all, I should clearly state my observation, which
-        is different from interviews. Second, the storyboard is built based on the persona, so the storyboard must fit
-        the persona exactly.
-
-        Based on the reviewers' feedback, if I have time, I will refactor my persona and storyboard to make my
-        storyboard better match my persona. Moreover, I will have more interview questions, such as users' views on a
-        certain component, etc., in order to understand the user experience more comprehensively.
-      </p>
+    <div class="block1" id="CONCLUSION">
+        <h4>CONCLUSION</h4>
+        <p>
+            Persona and storyboarding, two effective tools for a designer, not only enable me to better understand how
+            user groups interact with a product, but also further my understanding of a product.
+            <br><br>
+            During this assignment, I learned a lot of lessons. First of all, I should clearly state my observation,
+            which
+            is different from interviews. Second, the storyboard is built based on the persona, so the storyboard must
+            fit
+            the persona exactly.
+            <br><br>
+            Based on the reviewers' feedback, if I have more time, I will refactor my persona and storyboard to make my
+            storyboard better match my persona. Moreover, I will have more interview questions, such as users' views on
+            a
+            certain component, etc., in order to understand the user experience more comprehensively.
+        </p>
     </div>
-
 
 
     <div class="footer">
-      @2022
+        @2022
     </div>
-  </div>
+</div>
 </body>
 
 </html>
